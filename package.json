@@ -1,0 +1,55 @@
+{
+  "name": "tractor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.4.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "shortid": "^2.2.16",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "index.js",
+  "author": "kybik44 <kybikfeed@gmail.com>",
+  "license": "MIT"
+}

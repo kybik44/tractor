@@ -1,0 +1,6 @@
+{
+    "port": 3000,
+    "mongoUri": "mongodb+srv://Aliaksei:3698753aSa@cluster0.euhc7.mongodb.net/app?retryWrites=true&w=majority",
+    "jwtSecret": "kursovaya",
+    "baseUrl": "http://localhost:5000"
+}
